@@ -51,11 +51,13 @@ public class vprofileHomePagePO extends Variables {
 				
 				    userName= driver.findElement(By.name("username"));
 				    password=driver.findElement(By.name("password"));
-				    signin=driver.findElement(By.xpath("/html/body/div[2]/form/div/button"));
+				    signin=driver.findElement(By.xpath("//button[contains(text(),'LOGIN')]"));
 				
 			}
 		   
 		}
+	
+	
 		
 	    public void scrnShot() throws IOException {
 	    	
